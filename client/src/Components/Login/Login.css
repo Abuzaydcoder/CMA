@@ -1,0 +1,50 @@
+.login-wrapper {
+    /* border: 1.5px solid cyan; */
+    box-shadow: 0 0 8px lightgrey;
+    display: grid;
+    row-gap: 1rem;
+    text-transform: capitalize;
+    width: 30%;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+
+
+.login-heading {
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(246, 241, 241, 0.997);
+}
+
+
+
+.login-form-wrapper {
+    display: grid;
+    row-gap: 1rem;
+
+}
+
+.login-rows {
+    display: grid;
+
+}
+
+.login-rows input,
+.login-rows select,
+.login-rows button {
+    padding: .5rem;
+}
+
+.login-rows button {
+    background-color: green;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.login-rows button:hover {
+    color: chartreuse;
+    background-color: tan;
+}
