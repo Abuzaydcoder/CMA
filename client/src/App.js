@@ -6,6 +6,9 @@ import Home from './Components/Home';
 import Header from './Components/Partials/Header';
 import NotFound from './Components/Auth/NotFound';
 import Login from './Components/Login/Login';
+import Profile from './Components/Profile/Profile';
+import Settings from './Components/Profile/Settings';
+import AddContact from './Components/Contact/AddContact';
 // import { FaHome } from 'react-icons/fa';
 function App() {
   return (
@@ -15,7 +18,14 @@ function App() {
         <Routes>
           <Route index element= {<Home/>}/>
           <Route path='/Signup' element={<Signup />} />
+
           <Route path='/Login' element={<Login />} />
+
+          <Route path='/Profile' element={<Profile />} />
+          <Route path='/Profile/settings' element={<Settings />} />
+          
+          <Route path='/add-contact' element={<AddContact />} />
+
           <Route path='*' element= {<NotFound/>}/>
         </Routes>
         
