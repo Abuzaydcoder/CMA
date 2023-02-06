@@ -2,7 +2,7 @@ import React from 'react'
 import '../Profile/Profile.css';
 import photo from '../../assets/images/users/IMG_8750.JPG'
 import { Link } from 'react-router-dom';
-import {FaSearchLocation} from 'react-icons/fa'
+import { FaSearchLocation } from 'react-icons/fa';
 
 const Profile = () => {
   return (
@@ -10,7 +10,7 @@ const Profile = () => {
           <div className='profile-col-1'>
               <div className='profile-col-1-sub-1'>
                   <div className='profile-photo-round'>
-                  <img src={photo} alt={photo} ></img>
+                  <img src={photo} alt={photo} />
                   </div>
                 
               </div>

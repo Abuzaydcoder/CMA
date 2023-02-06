@@ -9,6 +9,10 @@ import Login from './Components/Login/Login';
 import Profile from './Components/Profile/Profile';
 import Settings from './Components/Profile/Settings';
 import AddContact from './Components/Contact/AddContact';
+import EditProfile from './Components/Profile/EditProfile';
+import ChangePassword from './Components/Profile/ChangePassword';
+import DeleteProfile from './Components/Profile/DeleteProfile';
+
 // import { FaHome } from 'react-icons/fa';
 function App() {
   return (
@@ -23,6 +27,9 @@ function App() {
 
           <Route path='/Profile' element={<Profile />} />
           <Route path='/Profile/settings' element={<Settings />} />
+          <Route path='/Profile/edit' element={<EditProfile />} />
+          <Route path='/Profile/change-password' element={<ChangePassword />} />
+          <Route path='/Profile/delete-account' element={<DeleteProfile />} />
           
           <Route path='/add-contact' element={<AddContact />} />
 
