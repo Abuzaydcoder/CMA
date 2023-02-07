@@ -1,0 +1,23 @@
+.acct-created-wrapper{
+    /* border: .5px solid red; */
+    display: grid;
+    row-gap: 1rem;
+    padding: 2rem;
+    width: 40vw;
+    margin: 15vh auto;
+    color: #2f2f2f;
+
+}
+.acct-created-row-1{
+    font-size: 2rem;
+    border-bottom: .5px solid #4f4f4f;
+}
+.acct-created-row-1 .created-icon{
+    color: green;
+}
+.acct-created-row-2{
+    color: #4f4f4f;
+}
+.acct-created-row-3{
+    font-size: 1.5rem;
+}
