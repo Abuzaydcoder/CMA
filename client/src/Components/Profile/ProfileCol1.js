@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 const ProfileCol1 = (props) => {
-    const {userPhoto} = props;
+    const {userPhoto, userDetails} = props;
     return (
         <div className='profile-col-1'>
               <div className='profile-col-1-sub-1'>

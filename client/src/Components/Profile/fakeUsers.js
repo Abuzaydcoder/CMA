@@ -5,7 +5,8 @@ const fakeUsers = [
         password: 'Abuzayd2021#',
         firstName: 'abdul',
         lastName: 'zayd',
-        lastSeen: '2/2/2023 03-31-57 pm',
+    lastSeen: '2/2/2023 03-31-57 pm',
+    photo: '',
  
   
     },
@@ -15,7 +16,8 @@ const fakeUsers = [
   password: 'Abu0316#',
   firstName: 'ayotomiwa',
   lastName: 'ogunleye',
-  lastSeen: '5/2/2023 07-31-57 pm',
+       lastSeen: '5/2/2023 07-31-57 pm',
+  photo: '',
  
   
     },
@@ -25,7 +27,8 @@ const fakeUsers = [
   password: 'parry123@',
   firstName: 'parry',
   lastName: 'watson',
-  lastSeen: '15/2/2023 05-31-57 pm',
+        lastSeen: '15/2/2023 05-31-57 pm',
+  photo: '',
  
   
     },
